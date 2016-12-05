@@ -31,7 +31,7 @@ def main():
     map.map(p)
     steps = 0
 
-    while mayorCount != 5 and location != "quit":
+    while mayorCount != 6 and location != "quit":
 
         if steps > 0:
             map.back(p, steps)
