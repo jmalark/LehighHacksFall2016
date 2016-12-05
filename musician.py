@@ -72,7 +72,7 @@ def orderStory(musicianCount):
         print("c: Once there were more people living here, someone opened a store to sell things to those people.")
         print("d: And now today we have a farm, a store, and a bakery. Every year we celebrate our progress with a parade.")
         print("e: Then because the farm produced more food, more people we able to live here.")
-        answer = input("Your answer: ")
+        answer = input("Your answer: ").strip().lowercase()
         if answer == "b a e c d":
             musicianCount += 1
         else:
