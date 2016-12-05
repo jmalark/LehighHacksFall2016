@@ -68,7 +68,7 @@ def shapes(artistCount):
         print("a: 4")
         print("b: 5")
         print("c: 6")
-        answer = input("Answer with a, b, or c. Type quit by typing quit. ").strip().lower()
+        answer = input("Answer with a, b, or c. Type quit to quit. ").strip().lower()
         if answer == "c":
             answerCount += 1
         else:
