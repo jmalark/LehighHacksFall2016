@@ -14,11 +14,11 @@ def mayor(mayorCount, townName):
 
         mayorCount += 1
 
-    elif mayorCount < 4:
+    elif mayorCount < 5:
         print("\"Some people still aren't ready. Could you go try to help them?\"")
         input()
 
-    elif mayorCount == 4:
+    elif mayorCount == 5:
         print("Your mom gives you a hug.")
         input()
         print("\"Thank you so much! Everyone I've talked to has said that you were a big help.\"")
