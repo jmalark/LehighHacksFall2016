@@ -6,8 +6,8 @@ def farmer(scientistCount):
         input("The farmer doesn't seem to be home. Maybe she'll be back later. Hit enter to go somewhere else.")
         return scientistCount
     elif scientistCount == 2:
-        input("The farmer is outside, watching her cows in the pasture. You notice a little stream that runs right through"
-              "the pasture down to the river. It's banks are bare; only dirt and rocks surround it - except for the occasional cow patty.")
+        input("The farmer is outside, watching her cows in the pasture. You notice a little stream that runs right through "
+              "the pasture down to the river. Its banks are bare; only dirt and rocks surround it - except for the occasional cow patty.")
         print()
         input("You mention this to the farmer, who looks surprised. \"Oh! I'd better fix that by redirecting this stream "
               "to prevent the manure from contaminating the water. It'll be pretty dull work, but since you're here you can make it more fun by"
